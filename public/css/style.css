@@ -1,0 +1,161 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+
+/* Map */
+
+#map {
+      width: 80vh;
+      height: 400px; 
+    }
+
+
+/* Navbar*/
+.navbar{
+    height: 5rem;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a{
+text-decoration: none;
+color: #222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #222;
+    }
+
+.f-info-links, .f-info-socails{
+    width: 100%;
+}
+
+
+
+.f-info-socails i{
+    margin-left: 0.7rem;
+    height: 1.25rem;
+}
+
+
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+
+/* Cards in index.ejs */
+.listing-card{
+  
+    margin-bottom: 2rem;
+    
+}
+
+.card-img-top{
+        border-radius: 1rem !important;
+        width: 100% !important;/*Occupy 100% width of card */
+        object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400;
+}
+
+.a-tag-img{
+    text-decoration: none !important;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New.ejs all bootstrap */
+
+
+/* Edit.ejs style */
+
+ /* Custom styles for spacing */
+ .form-section {
+    margin-top: 1rem;
+}
+.form-img-preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* Show.ejs */
+.card {
+    width: 100%;
+    max-width: 600px; /* Increased width */
+}
+
+/* Review Form Styles */
+#rating {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#comment {
+    width: 100%;
+    resize: none;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.review-section h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0b5ed7;
+}
+
+.title-show{
+    margin-left: 22rem;
+}
